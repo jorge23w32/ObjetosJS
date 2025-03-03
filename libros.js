@@ -19,7 +19,7 @@ class Libro {
             return false;
         } else {
             this.capitulos.splice(indice, 1);
-            console.log("Capitulo Eliminado Correctamente")
+            console.log("Capitulo Eliminado Correctamente.")
             return true;
         }
     }
