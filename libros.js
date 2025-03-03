@@ -9,17 +9,17 @@ class Libro {
 
     agregarCapitulo(capitulo) {
         this.capitulos.push(capitulo);
-        alert('Capitulo agregado correctamente')
+        console.log('Capitulo agregado correctamente')
     }
     
     eliminarCapitulo(capitulo) {
         const indice = this.capitulos.findIndex(elemento => elemento === capitulo);
         if (indice === -1) {
-            alert("El nombre del capitulo es incorrecto")
+            console.log("El nombre del capitulo es incorrecto")
             return false;
         } else {
             this.capitulos.splice(indice, 1);
-            alert("Capitulo Eliminado Correctamente")
+            console.log("Capitulo Eliminado Correctamente")
             return true;
         }
     }
