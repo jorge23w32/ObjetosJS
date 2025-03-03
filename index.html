@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases y Objetos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Libreria en Consola</h1>
+    <button onclick="mostrarLibros()">Mostrar Libros</button>
+    <button onclick="mostrarLibroAleatorio()">Descripcion de un libro</button>
+    <div>
+        <input placeholder="Escribe el nombre del Libro" id="nombreLibro">
+        <input placeholder="Escribe el Capitulo" id="nombreCapitulo">
+        <div class="botones">
+            <button class="agregar" onclick="agregarCapitulo(document.getElementById('nombreLibro').value, document.getElementById('nombreCapitulo').value)">Agregar</button>
+            <button class="eliminar" onclick="eliminarCapitulo(document.getElementById('nombreLibro').value, document.getElementById('nombreCapitulo').value)">Eliminar</button>
+        </div>
+    </div>
+    <script src="./libros.js"></script>
+</body>
+</html>
