@@ -40,8 +40,6 @@ class Libro {
 const libro1 = new Libro("Cien años de soledad", "Gabriel García Márquez", 1967, "Disponible", ["La fundación de Macondo", "Los Buendía", "La peste del insomnio"]);
 const libro2 = new Libro("El señor de los anillos", "J.R.R. Tolkien", 1954, "Prestado");
 libro2.agregarCapitulo("La Comunidad del Anillo");
-libro2.agregarCapitulo("Las Dos Torres");
-libro2.agregarCapitulo("El Retorno del Rey");
 
 const libro3 = new Libro("Don Quijote de la Mancha", "Miguel de Cervantes", 1605, "Disponible");
 const libro4 = new Libro("1984", "George Orwell", 1949, "Prestado", ["El Gran Hermano", "La Policía del Pensamiento"]);
@@ -49,7 +47,6 @@ const libro5 = new Libro("Rayuela", "Julio Cortázar", 1963, "Disponible");
 
 const libro6 = new Libro("Harry Potter y la piedra filosofal", "J.K. Rowling", 1997, "Disponible");
 libro6.agregarCapitulo("El niño que vivió");
-libro6.agregarCapitulo("El callejón Diagon");
 libro6.agregarCapitulo("El sombrero seleccionador");
 
 const libro7 = new Libro("La sombra del viento", "Carlos Ruiz Zafón", 2001, "Prestado");
